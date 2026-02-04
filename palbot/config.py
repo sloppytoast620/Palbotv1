@@ -1,7 +1,7 @@
 import os
 
 # Railway provides this variable directly to the OS
-token = os.environ.get("DISCORD_TOKEN")
+TOKEN = os.environ.get("DISCORD_TOKEN")
 
 if token is None:
     # This helps catch the TypeError before it happens
