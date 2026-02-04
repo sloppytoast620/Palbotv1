@@ -5,6 +5,7 @@ from palbot.config import TOKEN
 from palbot.storage import init_db
 
 intents = discord.Intents.default()
+intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
